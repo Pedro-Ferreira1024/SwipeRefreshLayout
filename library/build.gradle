@@ -3,20 +3,20 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
 version = '1.1.0'
-group = 'com.reginald.swiperefresh' // Maven Group ID for the artifact
+group = 'com.pedroferreira1024.swiperefresh' // Maven Group ID for the artifact
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:22.0.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
 }
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
-        minSdkVersion 9
-        targetSdkVersion 21
+        minSdkVersion 25
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
@@ -32,8 +32,8 @@ android {
 }
 
 
-def siteUrl = 'https://github.com/xyxyLiu/SwipeRefreshLayout'
-def gitUrl = 'https://github.com/xyxyLiu/SwipeRefreshLayout.git'
+def siteUrl = 'https://github.com/Pedro-Ferreira1024/SwipeRefreshLayout'
+def gitUrl = 'https://github.com/Pedro-Ferreira1024/SwipeRefreshLayout.git'
 
 
 install {
