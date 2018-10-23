@@ -1,5 +1,5 @@
 
-package com.reginald.swiperefresh.sample;
+package com.pedroferreria1024.swiperefresh.sample;
 
 import android.app.Activity;
 import android.content.Intent;

@@ -15,14 +15,14 @@
 */
 
 
-package com.reginald.swiperefresh.sample;
+package com.pedroferreria1024.swiperefresh.sample;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.webkit.WebView;
 
-import com.reginald.swiperefresh.CustomSwipeRefreshLayout;
-import com.reginald.swiperefresh.sample.dummydata.Cheeses;
+import com.pedroferreria1024.swiperefresh.CustomSwipeRefreshLayout;
+import com.pedroferreria1024.swiperefresh.sample.dummydata.Cheeses;
 
 import java.util.List;
 

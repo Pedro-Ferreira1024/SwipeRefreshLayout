@@ -1,4 +1,4 @@
-package com.reginald.swiperefresh;
+package com.pedroferreria1024.swiperefresh;
 /**
  * Created by tony.lxy on 2014/9/5.
  */

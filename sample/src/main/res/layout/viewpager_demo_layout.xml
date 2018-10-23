@@ -8,7 +8,7 @@
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="48dp" />
-    <com.reginald.swiperefresh.CustomSwipeRefreshLayout xmlns:swiperefresh="http://schemas.android.com/apk/res-auto"
+    <com.pedroferreria1024.swiperefresh.CustomSwipeRefreshLayout xmlns:swiperefresh="http://schemas.android.com/apk/res-auto"
         android:id="@+id/swipelayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -38,7 +38,7 @@
             </android.support.v4.view.ViewPager>
         </LinearLayout>
 
-    </com.reginald.swiperefresh.CustomSwipeRefreshLayout>
+    </com.pedroferreria1024.swiperefresh.CustomSwipeRefreshLayout>
 
 
 </LinearLayout>

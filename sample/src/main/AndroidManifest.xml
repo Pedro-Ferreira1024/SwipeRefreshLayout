@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.reginald.swiperefresh.sample">
+    package="com.pedroferreria1024.swiperefresh.sample">
 
     <application
         android:noHistory="true"

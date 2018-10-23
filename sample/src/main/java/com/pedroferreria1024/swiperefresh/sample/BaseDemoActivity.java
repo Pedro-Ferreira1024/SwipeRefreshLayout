@@ -1,11 +1,11 @@
-package com.reginald.swiperefresh.sample;
+package com.pedroferreria1024.swiperefresh.sample;
 
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.reginald.swiperefresh.CustomSwipeRefreshLayout;
+import com.pedroferreria1024.swiperefresh.CustomSwipeRefreshLayout;
 
 /**
  * Created by lxy on 15/8/6.

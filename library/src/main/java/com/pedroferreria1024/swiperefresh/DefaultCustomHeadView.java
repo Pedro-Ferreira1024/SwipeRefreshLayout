@@ -1,4 +1,4 @@
-package com.reginald.swiperefresh;
+package com.pedroferreria1024.swiperefresh;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.reginald.swiperefresh.CustomSwipeRefreshLayout.State;
+import com.pedroferreria1024.swiperefresh.CustomSwipeRefreshLayout.State;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

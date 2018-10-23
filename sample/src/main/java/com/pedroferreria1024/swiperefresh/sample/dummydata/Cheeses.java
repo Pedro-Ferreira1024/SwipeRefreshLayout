@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.reginald.swiperefresh.sample.dummydata;
+package com.pedroferreria1024.swiperefresh.sample.dummydata;
 
 import java.util.ArrayList;
 import java.util.HashSet;

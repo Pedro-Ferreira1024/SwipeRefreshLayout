@@ -1,4 +1,4 @@
-package com.reginald.swiperefresh;
+package com.pedroferreria1024.swiperefresh;
 /**
  * Created by tony.lxy on 2014/9/5.
  */
@@ -1152,7 +1152,7 @@ public class CustomSwipeRefreshLayout extends ViewGroup {
     /**
      * Classes that must be implemented by for custom headview
      *
-     * @see com.reginald.swiperefresh.CustomSwipeRefreshLayout.State
+     * @see com.pedroferreria1024.swiperefresh.CustomSwipeRefreshLayout.State
      * @see DefaultCustomHeadView a default headview if no custom headview provided
      */
     public interface CustomSwipeRefreshHeadLayout {

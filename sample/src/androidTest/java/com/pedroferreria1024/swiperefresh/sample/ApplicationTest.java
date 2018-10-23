@@ -1,4 +1,4 @@
-package com.reginald.swiperefresh.sample;
+package com.pedroferreria1024.swiperefresh.sample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

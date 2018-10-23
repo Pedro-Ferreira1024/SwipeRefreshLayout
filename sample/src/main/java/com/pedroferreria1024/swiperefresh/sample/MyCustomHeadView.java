@@ -1,4 +1,4 @@
-package com.reginald.swiperefresh.sample;
+package com.pedroferreria1024.swiperefresh.sample;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
@@ -17,8 +17,8 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.reginald.swiperefresh.CustomSwipeRefreshLayout;
-import com.reginald.swiperefresh.CustomSwipeRefreshLayout.State;
+import com.pedroferreria1024.swiperefresh.CustomSwipeRefreshLayout;
+import com.pedroferreria1024.swiperefresh.CustomSwipeRefreshLayout.State;
 
 public class MyCustomHeadView extends LinearLayout implements CustomSwipeRefreshLayout.CustomSwipeRefreshHeadLayout {
 
@@ -49,10 +49,10 @@ public class MyCustomHeadView extends LinearLayout implements CustomSwipeRefresh
         mContainer = (LinearLayout) LayoutInflater.from(getContext()).inflate(R.layout.my_swiperefresh_head_layout, null);
         addView(mContainer, lp);
         setGravity(Gravity.BOTTOM);
-        mImageView = (ImageView) findViewById(com.reginald.swiperefresh.R.id.default_header_arrow);
-        mMainTextView = (TextView) findViewById(com.reginald.swiperefresh.R.id.default_header_textview);
-        mSubTextView = (TextView) findViewById(com.reginald.swiperefresh.R.id.default_header_time);
-        mProgressBar = (ProgressBar) findViewById(com.reginald.swiperefresh.R.id.default_header_progressbar);
+        mImageView = (ImageView) findViewById(com.pedroferreria1024.swiperefresh.R.id.default_header_arrow);
+        mMainTextView = (TextView) findViewById(com.pedroferreria1024.swiperefresh.R.id.default_header_textview);
+        mSubTextView = (TextView) findViewById(com.pedroferreria1024.swiperefresh.R.id.default_header_time);
+        mProgressBar = (ProgressBar) findViewById(com.pedroferreria1024.swiperefresh.R.id.default_header_progressbar);
     }
 
     @Override

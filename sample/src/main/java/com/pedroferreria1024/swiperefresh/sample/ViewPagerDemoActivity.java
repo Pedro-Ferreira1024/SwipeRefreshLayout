@@ -15,7 +15,7 @@
 */
 
 
-package com.reginald.swiperefresh.sample;
+package com.pedroferreria1024.swiperefresh.sample;
 
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -34,8 +34,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.astuetz.PagerSlidingTabStrip;
-import com.reginald.swiperefresh.CustomSwipeRefreshLayout;
-import com.reginald.swiperefresh.sample.dummydata.Cheeses;
+import com.pedroferreria1024.swiperefresh.CustomSwipeRefreshLayout;
+import com.pedroferreria1024.swiperefresh.sample.dummydata.Cheeses;
 
 import java.util.ArrayList;
 import java.util.List;

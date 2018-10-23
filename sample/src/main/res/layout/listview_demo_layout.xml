@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.reginald.swiperefresh.CustomSwipeRefreshLayout xmlns:swiperefresh="http://schemas.android.com/apk/res-auto"
+    <com.pedroferreria1024.swiperefresh.CustomSwipeRefreshLayout xmlns:swiperefresh="http://schemas.android.com/apk/res-auto"
         android:id="@+id/swipelayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -30,7 +30,7 @@
             android:layout_height="match_parent">
         </ListView>
 
-    </com.reginald.swiperefresh.CustomSwipeRefreshLayout>
+    </com.pedroferreria1024.swiperefresh.CustomSwipeRefreshLayout>
 
 
 </LinearLayout>
